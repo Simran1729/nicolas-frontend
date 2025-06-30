@@ -32,6 +32,7 @@ export function VoiceProvider({ children }: { children: ReactNode }) {
     setSelectedUser("");
     setExtractedData(null);
     setTicketId("");
+    setTranscription(null);
   };
 
   return (
